@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Basic SEO Meta Tags -->
+<title>İletişim | Ademir Diş Kliniği - Randevu ve İletişim Bilgileri</title>
+<meta name="description" content="Ademir Diş Kliniği ile iletişime geçin. Üsküdar İstanbul'da konumumuz, telefon numaralarımız ve randevu bilgileri. Adres: Bulgurlu, İzzettinbey Sokağı No:28/A">
+<meta name="keywords" content="diş hekimi randevu, üsküdar diş kliniği iletişim, ademir diş kliniği telefon, diş hekimi iletişim, dental klinik randevu">
+<meta name="author" content="Ademir Diş Kliniği">
+<meta name="robots" content="index, follow">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://ademir.com/contact.html">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="İletişim | Ademir Diş Kliniği - Randevu ve İletişim Bilgileri">
+<meta property="og:description" content="Ademir Diş Kliniği ile iletişime geçin. Üsküdar İstanbul'da konumumuz, telefon numaralarımız ve randevu bilgileri.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ademir.com/contact.html">
+<meta property="og:image" content="https://ademir.com/images/cihan.png">
+<meta property="og:site_name" content="Ademir Diş Kliniği">
+<meta property="og:locale" content="tr_TR">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="İletişim | Ademir Diş Kliniği - Randevu ve İletişim Bilgileri">
+<meta name="twitter:description" content="Ademir Diş Kliniği ile iletişime geçin. Üsküdar İstanbul'da konumumuz, telefon numaralarımız ve randevu bilgileri.">
+<meta name="twitter:image" content="https://ademir.com/images/cihan.png">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#3B82F6',secondary:'#10B981'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Poppins', sans-serif;
+}
+</style>
+</head>
+<body class="bg-white">
+<!-- Header -->
+<!-- Header Container -->
+<div id="header-container"></div>
+<!-- Page Header -->
+<section class="bg-gradient-to-r from-primary to-blue-600 py-20">
+<div class="container mx-auto px-4 text-center">
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-4" data-tr="İletişim" data-en="Contact">İletişim</h1>
+<p class="text-xl text-white/90 max-w-2xl mx-auto" data-tr="Sorularınız için bize ulaşabilir veya randevu talebinde bulunabilirsiniz" data-en="You can contact us for your questions or request an appointment">Sorularınız için bize ulaşabilir veya randevu talebinde bulunabilirsiniz</p>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<!-- Contact Form -->
+<div class="bg-gray-50 rounded-lg p-8 shadow-sm">
+<h3 class="text-xl font-semibold text-gray-900 mb-6" data-tr="İletişim Formu" data-en="Contact Form">İletişim Formu</h3>
+<form id="contactForm">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div>
+<label for="name" class="block text-sm font-medium text-gray-700 mb-2" data-tr="Adınız Soyadınız" data-en="Full Name">Adınız Soyadınız</label>
+<input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Adınız Soyadınız" data-tr-placeholder="Adınız Soyadınız" data-en-placeholder="Full Name" required>
+</div>
+<div>
+<label for="phone" class="block text-sm font-medium text-gray-700 mb-2" data-tr="Telefon Numaranız" data-en="Phone Number">Telefon Numaranız</label>
+<input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="0555 555 55 55" required>
+</div>
+</div>
+<div class="mb-6">
+<label for="email" class="block text-sm font-medium text-gray-700 mb-2" data-tr="E-posta Adresiniz" data-en="Email Address">E-posta Adresiniz</label>
+<input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="ornek@email.com" data-tr-placeholder="ornek@email.com" data-en-placeholder="example@email.com" required>
+</div>
+<div class="mb-6">
+<label for="service" class="block text-sm font-medium text-gray-700 mb-2" data-tr="Hizmet" data-en="Service">Hizmet</label>
+<div class="relative">
+<select id="service" class="w-full px-4 py-2 border border-gray-300 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary pr-8" required>
+<option value="" disabled selected data-tr="Hizmet Seçiniz" data-en="Select Service">Hizmet Seçiniz</option>
+<option value="implant" data-tr="İmplant Tedavisi" data-en="Implant Treatment">İmplant Tedavisi</option>
+<option value="ortodonti" data-tr="Ortodonti" data-en="Orthodontics">Ortodonti</option>
+<option value="estetik" data-tr="Estetik Diş Hekimliği" data-en="Aesthetic Dentistry">Estetik Diş Hekimliği</option>
+<option value="endodonti" data-tr="Endodonti" data-en="Endodontics">Endodonti</option>
+<option value="pedodonti" data-tr="Pedodonti" data-en="Pedodontics">Pedodonti</option>
+<option value="cerrahi" data-tr="Ağız ve Çene Cerrahisi" data-en="Oral and Maxillofacial Surgery">Ağız ve Çene Cerrahisi</option>
+</select>
+<div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+<i class="ri-arrow-down-s-line ri-lg text-gray-400"></i>
+</div>
+</div>
+</div>
+<div class="mb-6">
+<label for="message" class="block text-sm font-medium text-gray-700 mb-2" data-tr="Mesajınız" data-en="Your Message">Mesajınız</label>
+<textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Mesajınızı yazınız..." data-tr-placeholder="Mesajınızı yazınız..." data-en-placeholder="Write your message..." required></textarea>
+</div>
+<button type="button" id="submitBtn" class="w-full bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap" data-tr="Gönder" data-en="Send">
+Gönder
+</button>
+</form>
+</div>
+
+<!-- Contact Info -->
+<div>
+<div class="mb-8">
+<h3 class="text-xl font-semibold text-gray-900 mb-6" data-tr="İletişim Bilgilerimiz" data-en="Our Contact Information">İletişim Bilgilerimiz</h3>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full text-primary mr-4 mt-1">
+<i class="ri-map-pin-line ri-lg"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-900 mb-1" data-tr="Adres" data-en="Address">Adres</h4>
+<p class="text-gray-600"><a href="https://maps.google.com/?q=Bulgurlu, İzzettinbey Sokağı No:28/A, 34696 Üsküdar/İstanbul" target="_blank" class="hover:text-primary transition-colors">Bulgurlu, İzzettinbey Sokağı No:28/A, 34696 Üsküdar/İstanbul</a></p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full text-primary mr-4 mt-1">
+<i class="ri-phone-line ri-lg"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-900 mb-1" data-tr="Telefon" data-en="Phone">Telefon</h4>
+<p class="text-gray-600"><a href="tel:02167594888" class="hover:text-primary transition-colors">0216 759 48 88</a></p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full text-primary mr-4 mt-1">
+<i class="ri-mail-line ri-lg"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-900 mb-1" data-tr="E-posta" data-en="Email">E-posta</h4>
+<p class="text-gray-600">info@elitdental.com</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full text-primary mr-4 mt-1">
+<i class="ri-time-line ri-lg"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-900 mb-1" data-tr="Çalışma Saatleri" data-en="Working Hours">Çalışma Saatleri</h4>
+<p class="text-gray-600" data-tr="Hafta İçi: 10:00 - 21:00" data-en="Weekdays: 10:00 - 21:00">Hafta İçi: 10:00 - 21:00</p>
+<p class="text-gray-600" data-tr="Cumartesi - Pazar: 10:00 - 19:00" data-en="Saturday - Sunday: 10:00 - 19:00">Cumartesi - Pazar: 10:00 - 19:00</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-semibold text-gray-900 mb-6" data-tr="Konum" data-en="Location">Konum</h3>
+<div class="w-full h-72 rounded-lg overflow-hidden relative">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.2508984523756!2d29.081499599999997!3d41.019766499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac9abeb7db227%3A0xe435abd02bde38d7!2sDi%C5%9F%20Hekimi%20Adem%20Demir!5e0!3m2!1str!2str!4v1752416006470!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-primary relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute inset-0" style="background-image: url('https://readdy.ai/api/search-image?query=Abstract%20luxury%20pattern%20with%20dental%20symbols%20and%20geometric%20shapes%2C%20elegant%20and%20modern%20design%20with%20soft%20curves%20and%20lines%2C%20subtle%20and%20sophisticated%20style%20perfect%20for%20background%20overlay%2C%20predominantly%20white%20and%20light%20blue%20tones&width=1920&height=1080&seq=17&orientation=landscape'); background-size: cover; background-position: center;"></div>
+</div>
+<div class="container mx-auto px-4">
+<div class="flex flex-col md:flex-row items-center justify-between">
+<div class="mb-8 md:mb-0 md:mr-8">
+<h2 class="text-3xl font-bold text-white mb-4" data-tr="Hemen İletişime Geçin" data-en="Contact Us Now">Hemen İletişime Geçin</h2>
+<p class="text-white/90" data-tr="Sorularınız için bize ulaşın, size yardımcı olmaktan mutluluk duyarız." data-en="Contact us for your questions, we are happy to help you.">Sorularınız için bize ulaşın, size yardımcı olmaktan mutluluk duyarız.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="https://wa.me/905312225213?text=Merhaba,%20diş%20kliniğiniz%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="bg-green-500 text-white px-8 py-3 !rounded-button font-medium hover:bg-green-600 transition-colors whitespace-nowrap inline-flex items-center gap-2" data-tr="WhatsApp'tan Ulaş" data-en="Contact via WhatsApp">
+<i class="ri-whatsapp-line ri-lg"></i>
+WhatsApp'tan Ulaş
+</a>
+<a href="tel:02167594888" class="bg-transparent text-white border border-white px-8 py-3 !rounded-button font-medium hover:bg-white/10 transition-colors whitespace-nowrap inline-block cursor-pointer" style="pointer-events: auto; z-index: 10; position: relative;" data-tr="Bizi Arayın" data-en="Call Us">
+Bizi Arayın
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<!-- Footer Container -->
+<div id="footer-container"></div>
+<script>
+// Telegram Bot Konfigürasyonu
+const TELEGRAM_BOT_TOKEN = '7603871121:AAGyZqLwTYo3LF7v9VEEHTBGYMFAGKZCHxY'; // Botfather'dan aldığınız token
+const TELEGRAM_CHAT_ID = '974820258'; // Chat ID'nizi buraya yazın
+
+// Form gönder butonu click'ini yakala
+document.getElementById('submitBtn').addEventListener('click', async function(e) {
+    e.preventDefault();
+    
+    // Form verilerini al
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const email = document.getElementById('email').value;
+    const service = document.getElementById('service').value;
+    const message = document.getElementById('message').value;
+    
+    // Form validation
+    const currentLang = document.querySelector('[data-tr][data-en]').textContent === document.querySelector('[data-tr][data-en]').getAttribute('data-en') ? 'en' : 'tr';
+    
+    if (!name.trim()) {
+        const message = currentLang === 'en' ? '❌ Please enter your full name.' : '❌ Lütfen adınızı ve soyadınızı girin.';
+        showNotification(message, 'error');
+        return;
+    }
+    if (!phone.trim()) {
+        const message = currentLang === 'en' ? '❌ Please enter your phone number.' : '❌ Lütfen telefon numaranızı girin.';
+        showNotification(message, 'error');
+        return;
+    }
+    if (!email.trim()) {
+        const message = currentLang === 'en' ? '❌ Please enter your email address.' : '❌ Lütfen e-posta adresinizi girin.';
+        showNotification(message, 'error');
+        return;
+    }
+    if (!service) {
+        const message = currentLang === 'en' ? '❌ Please select a service.' : '❌ Lütfen bir hizmet seçin.';
+        showNotification(message, 'error');
+        return;
+    }
+    if (!message.trim()) {
+        const message = currentLang === 'en' ? '❌ Please write your message.' : '❌ Lütfen mesajınızı yazın.';
+        showNotification(message, 'error');
+        return;
+    }
+    
+    // Hizmet isimlerini Türkçe'ye çevir
+    const serviceNames = {
+        'implant': 'İmplant Tedavisi',
+        'ortodonti': 'Ortodonti',
+        'estetik': 'Estetik Diş Hekimliği',
+        'endodonti': 'Endodonti',
+        'pedodonti': 'Pedodonti',
+        'cerrahi': 'Ağız ve Çene Cerrahisi'
+    };
+    
+    // Telegram mesajını oluştur
+    const telegramMessage = `
+🦷 *YENİ İLETİŞİM FORMU*
+
+👤 *Ad Soyad:* ${name}
+📞 *Telefon:* ${phone}
+📧 *E-posta:* ${email}
+🏥 *Hizmet:* ${serviceNames[service] || service}
+💬 *Mesaj:* ${message}
+
+⏰ *Tarih:* ${new Date().toLocaleString('tr-TR')}
+    `;
+    
+    try {
+        // Telegram'a mesaj gönder
+        const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                chat_id: TELEGRAM_CHAT_ID,
+                text: telegramMessage,
+                parse_mode: 'Markdown'
+            })
+        });
+        
+        if (response.ok) {
+            // Başarı mesajı göster
+            const successMessage = currentLang === 'en' ? '✅ Your message has been sent successfully! We will get back to you as soon as possible.' : '✅ Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.';
+            showNotification(successMessage, 'success');
+            // Formu temizle
+            document.getElementById('contactForm').reset();
+        } else {
+            throw new Error('Telegram API Error');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        const errorMessage = currentLang === 'en' ? '❌ An error occurred while sending the message. Please try again later.' : '❌ Mesaj gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.';
+        showNotification(errorMessage, 'error');
+    }
+});
+
+// Bildirim gösterme fonksiyonu
+function showNotification(message, type) {
+    // Mevcut bildirimi kaldır
+    const existingNotification = document.querySelector('.notification');
+    if (existingNotification) {
+        existingNotification.remove();
+    }
+    
+    // Yeni bildirim oluştur
+    const notification = document.createElement('div');
+    notification.className = `notification fixed top-4 right-4 z-50 px-6 py-4 rounded-lg shadow-lg max-w-md transform transition-all duration-300 translate-x-full`;
+    
+    if (type === 'success') {
+        notification.classList.add('bg-green-500', 'text-white');
+    } else {
+        notification.classList.add('bg-red-500', 'text-white');
+    }
+    
+    notification.innerHTML = `
+        <div class="flex items-start gap-3">
+            <div class="flex-1 text-sm">${message}</div>
+            <button onclick="this.parentElement.parentElement.remove()" class="text-white/80 hover:text-white">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Animasyon için kısa gecikme
+    setTimeout(() => {
+        notification.classList.remove('translate-x-full');
+    }, 100);
+    
+    // 5 saniye sonra otomatik kaldır
+    setTimeout(() => {
+        if (notification.parentElement) {
+            notification.classList.add('translate-x-full');
+            setTimeout(() => notification.remove(), 300);
+        }
+    }, 5000);
+}
+</script>
+<script src="scripts.js"></script>
+</body>
+</html> 

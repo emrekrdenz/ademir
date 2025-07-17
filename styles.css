@@ -1,0 +1,10 @@
+/* Mobil menü için stiller */
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+/* Diğer ortak stiller buraya eklenebilir */ 

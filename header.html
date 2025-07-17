@@ -1,0 +1,55 @@
+<header class="w-full bg-white shadow-sm sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <div class="flex items-center">
+      <a href="/">
+        <h1 class="text-3xl font-['Pacifico'] text-primary mr-2">ademir</h1>
+      </a>
+    </div>
+    <nav class="hidden lg:flex items-center space-x-8">
+      <a href="/index" class="text-gray-700 hover:text-primary transition-colors" data-tr="Anasayfa" data-en="Home">Anasayfa</a>
+      <a href="/hizmetlerimiz" class="text-gray-700 hover:text-primary transition-colors" data-tr="Hizmetlerimiz" data-en="Services">Hizmetlerimiz</a>
+      <a href="/hekimlerimiz" class="text-gray-700 hover:text-primary transition-colors" data-tr="Hekimlerimiz" data-en="Our Doctors">Hekimlerimiz</a>
+      <a href="/blog" class="text-gray-700 hover:text-primary transition-colors" data-tr="Blog" data-en="Blog">Blog</a>
+      <a href="/iletisim" class="text-gray-700 hover:text-primary transition-colors" data-tr="İletişim" data-en="Contact">İletişim</a>
+    </nav>
+    <div class="flex items-center space-x-4">
+      <div class="hidden md:flex items-center space-x-2">
+        <div class="flex items-center">
+          <div class="w-10 h-10 flex items-center justify-center text-primary">
+            <i class="ri-phone-line ri-lg"></i>
+          </div>
+          <div>
+            <p class="text-xs text-gray-500" data-tr="Bizi Arayın" data-en="Call Us">Bizi Arayın</p>
+            <p class="text-sm font-semibold"><a href="tel:02167594888" class="hover:text-primary transition-colors">0216 759 48 88</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- Language Switcher -->
+      <div class="flex items-center space-x-2">
+        <button id="lang-tr" class="lang-btn px-3 py-1.5 text-sm font-medium rounded border transition-colors bg-primary text-white border-primary">
+          TR
+        </button>
+        <button id="lang-en" class="lang-btn px-3 py-1.5 text-sm font-medium rounded border transition-colors text-gray-600 border-gray-300 hover:border-primary hover:text-primary">
+          EN
+        </button>
+      </div>
+      <a href="https://wa.me/905312225213?text=Merhaba,%20diş%20kliniğiniz%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="hidden sm:inline-flex bg-green-500 text-white px-6 py-2.5 !rounded-button font-medium hover:bg-green-600 transition-colors whitespace-nowrap items-center gap-2" data-tr="WhatsApp'tan Ulaş" data-en="Contact via WhatsApp">
+        <i class="ri-whatsapp-line ri-lg"></i>
+        <span>WhatsApp'tan Ulaş</span>
+      </a>
+      <button id="mobile-menu-button" class="md:hidden w-10 h-10 flex items-center justify-center">
+        <i class="ri-menu-line ri-lg"></i>
+      </button>
+    </div>
+  </div>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-white absolute top-full left-0 w-full shadow-lg rounded-b-lg">
+    <nav class="flex flex-col p-4 space-y-2">
+      <a href="/index" class="text-gray-700 hover:text-primary transition-colors py-2" data-tr="Anasayfa" data-en="Home">Anasayfa</a>
+      <a href="/hizmetlerimiz" class="text-gray-700 hover:text-primary transition-colors py-2" data-tr="Hizmetlerimiz" data-en="Services">Hizmetlerimiz</a>
+      <a href="/hekimlerimiz" class="text-gray-700 hover:text-primary transition-colors py-2" data-tr="Hekimlerimiz" data-en="Our Doctors">Hekimlerimiz</a>
+      <a href="/blog" class="text-gray-700 hover:text-primary transition-colors py-2" data-tr="Blog" data-en="Blog">Blog</a>
+      <a href="/iletisim" class="text-gray-700 hover:text-primary transition-colors py-2" data-tr="İletişim" data-en="Contact">İletişim</a>
+    </nav>
+  </div>
+</header> 

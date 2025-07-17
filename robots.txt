@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ademir.com/sitemap.xml
+
+# Disallow certain files/directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.css$
+Disallow: /*.js$
+
+# Allow search engines to crawl CSS and JS files for better rendering
+User-agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+
+# Crawl delay (optional)
+Crawl-delay: 1 
